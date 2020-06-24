@@ -1,0 +1,25 @@
+name: kemal-sentry-test
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  kemal-sentry-test:
+    main: src/kemal-sentry-test.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  kemal-csrf:
+    github: kemalcr/kemal-csrf
+    branch: master
+  raven:
+    github: sija/raven.cr
+    branch: develop
+
+
+crystal: 0.35.1
+
+license: MIT
